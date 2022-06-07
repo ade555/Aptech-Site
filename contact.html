@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- FONT AWESOME CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" integrity="sha512-DD6Lm09YDHzhW3K4eLJ9Y7sFrBwtCF+KuSWOLYFqKsZ6RX4ifCu9vWqM4R+Uy++aBWe6wD4csgQRzGKp5vP6tg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="assets/css/config.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- LOADER -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+      </div>
+    <!-- LOADER END-->
+
+    <div class="content">
+         <!-- CONTACT FORM AREA -->
+         <section class="container-fluid py-5 my-4" id="screen1">
+            <div class="head">
+                <!-- <h1 class="text-white text-capitalize" id="con">contact us</h1>
+                <p id="paragraph" class="text-white text-center m-auto mb-5">Are you interested reaching out to us for sponsorship, partnerships, or any other thing you can think of? Send us a direct message today!</p> -->
+                <div class="d-flex align-items-center justify-content-evenly">
+                    <div class="contact-inner1" data-aos-duration="3000" data-aos="fade-up-right">
+                        <img src="assets/images/contactSVG.svg" class="no-display img-fluid" alt="contact us">
+                    </div>
+                    <div class="contact-inner2">
+                        <div id="card" class="card shadow-sm shadow-lg" data-aos-duration="3000" data-aos="fade-up-left">
+                            <form action="" method="POST" class="form-group m-3 px-3 py-4 needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6 col-lg-6 form_input">
+                                        <label for="name" class="font-weight-bold">Name</label>
+                                        <input type="text" name="name" id="name" placeholder="Full Name" required class="me-4 form-control p-3 mt-1 input-lg">
+                                        <div class="invalid-feedback my-2">
+                                            please provide your name
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6 col-lg-6 form_input">
+                                        <label for="email" class="font-weight-bold">Email Address</label>
+                                        <input type="email" name="email" placeholder="Email Address" id="email" required class="form-control p-3 mt-1">
+                                        <div class="invalid-feedback my-2">
+                                            provide a valid email address
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-md-4">
+                                    <div class="col-xs-12 col-md-6 col-lg-6 form_input">
+                                        <label for="phone" class="font-weight-bold">Phone</label>
+                                        <input type="text" name="phone" id="phone" placeholder="(416)254-3265" class="me-4 form-control p-3 mt-1 input-lg">
+                                    </div>
+                                    <div class="col-xs-12 col-md-6 col-lg-6 form_input">
+                                        <label for="subject" class="font-weight-bold ">Subject</label>
+                                        <input type="text" name="subject" placeholder="e.g Support" required id="subject" class="form-control p-3 mt-1 ">
+                                        <div class="invalid-feedback my-2">
+                                            what is the subject of your meaasge?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-xs-12 col-md-12 col-12 form_input">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" class="form-control" placeholder="please enter your message" cols="30" rows="6" required></textarea>
+                                        <div class="invalid-feedback my-2">
+                                            You don't intend to prank us with an empty message, do you?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <input id="submit" type="submit" value="submit" class="form-submit p-md-3 px-md-2">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT FORM AREA END -->
+
+        <!-- INQUIRIES SECTION -->
+        <section class="my-4 container-fluid bg-white">
+            <!-- <h2 class="text-dark">Prefer to reach out directly?</h2>
+            <p class="paragraph2 text-dark text-center w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adispicing elit convallis libero ac aliquet nibh et enim at eget aenean diam morbi morbi </p> -->
+            <div class="row ">
+                <div class="col-md-4 col-xs-12 col-lg-4">
+                    <div id="panel" class="panel mx-auto">
+                        <i id="icon" class="fa fa-light fa-phone fa-2x shadow-lg yellow-txt" aria-hidden="true"></i>
+                        <span class="text-dark">Lorem ipsum dolor sit amet,consectetur adispicing elit convallis libero ac </span>
+                        <a href="tel:+234807689811" class="inquiry-link yellow-txt">Call Us <i class="fa fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-xs-12 col-lg-4">
+                    <div id="panel" class="panel mx-auto">
+                        <i id="icon" class="fa fa-light fa-mail-bulk fa-2x shadow-lg yellow-txt" aria-hidden="true"></i>
+                        <span class="text-dark">Lorem ipsum dolor sit amet,consectetur adispicing elit convallis libero ac </span>
+                        <a href="mailto: info@designitafrica.org" class="inquiry-link yellow-txt">Send an email <i class="fa fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-lg-4">
+                    <div id="panel" class="panel mx-auto">
+                        <i id="icon" class="fa fa-duotone fa-twitter fa-2x shadow-lg yellow-txt" aria-hidden="true"></i>
+                        <span class="text-dark">Lorem ipsum dolor sit amet,consectetur adispicing elit convallis libero ac </span>
+                        <a href="https://twitter.com/DesignITAfrica?s=20&t=PYThuILXb1SC9-Kr1rANlw" class="inquiry-link yellow-txt">Send a message <i class="fa fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INQUIRIES SECTION END -->
+
+         <!-- LOCATION SECTION -->
+         <section class="my-4 container-fluid bg-white">
+            <div id="location-section" class="d-md-flex justify-content-evenly align-items-center">
+                <div id="ins" class="p-3 height_class">
+                    <div>
+                    <i id="icon2" class="fa fa-light fa-location-dot fa-2x shadow-lg yellow-txt"></i>
+                    <h3 class="text-dark locate">DesignIT Africa is located at Ibadan, Nigeria</h3>
+                    </div>
+                </div>
+                <div id="rect" class="height_class">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253228.93754818352!2d3.7649709750980884!3d7.3872361202976276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d77eeff086f%3A0x3b33e0f76e8e04a9!2sIbadan!5e0!3m2!1sen!2sng!4v1649682899075!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+       </section>
+       <!-- LOCATION SECTION END -->
+        <!-- <div class="container-fluid contact-below">
+           
+            
+                
+                
+            <div id="middle" class="middle mt-5">
+    
+               
+            </div>
+        </div> -->
+        
+        <section class="d-md-flex mt-0 p-5" id="faq-section">
+            <div id="index-faq-inner1">
+              <h3 class="mt-3">Frequently Asked Questions</h3>
+              <img src="assets/images/faq.svg" alt="" class="img-fluid no-display my-auto" data-aos="fade-up-right" data-aos-duration="2500">
+            </div>
+        
+            <div id="index-faq-inner2" data-aos="fade-up-left" data-aos-duration="2500">
+              <!-- ACCORDION -->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item big-accordion">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <span class="index-accordion">How do we raise funds?</span>
+                  </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      We render IT services to people and other businesses out there. Our services include design, digital marketing and web development.
+                    </div>
+                  </div>
+                </div>
+              <div class="accordion-item big-accordion">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <span class="index-accordion">Why should you patronise us?</span>
+                  </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Money gotten from our services are used to fund our other events geared towards equipping young scholars with tech skills. By requesting our services, you are helping a kid gain access to tech resources.</div>
+                  </div>
+              </div>
+              <div class="accordion-item big-accordion">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <span class="index-accordion">What is the next DesignIT Africa event?</span>
+                  </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We host a wide range of events anually. To know what we are planning in the coming weeks, chech out our <a href="events.html">events page.</a></div>
+                  </div>
+              </div>
+              <div class="accordion-item big-accordion">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <span class="index-accordion">Do volunteers get paid?</span>
+                  </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We try our best to compensate our volunteers by providing them with some stipend. This is however not on a regular basis. We also organize hangout sessions from time to time so that our volunteers can even bond more together.</div>
+                  </div>
+              </div>
+              <div class="accordion-item big-accordion">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      <span class="index-accordion">How do I become a scholar?</span>
+                  </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">By applying to be a scholar for our annual training program which is usually launched around November, every year.</div>
+                  </div>
+              </div>
+              </div>
+            </div>
+        </section>
+    </div>
+
+    
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JQUERy CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+    //Preloader
+    preloaderFadeOutTime = 7000; //set to 7 seconds before fading out
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    
+    $(".content").fadeIn(2000);
+    }
+    hidePreloader();
+    });
+    </script>
+    
+</body>
+</html>

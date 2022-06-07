@@ -1,0 +1,289 @@
+/* DESIGNED BY ADEMOLA THOMPSON FOR APTECH COMPUTER EDUCATION, OTA CENTER */
+body {
+    overflow-x: hidden;
+}
+
+#screen1{
+    background: #808080;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+.contact-inner1{
+    width: 50%;
+}
+#paragraph{
+    font-size: 28px;
+    width: 80%;
+}
+.paragraph2{
+    font-size: 24px;
+    margin-bottom: 2%;
+}
+.inquiry-link:hover{
+    color: #008db9 !important;
+}
+label {
+    font-weight: bold;
+    margin-left: 3%;
+    font-size: 14px;
+    color: #EEB11A;
+}
+#card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 20px rgba(0, 0, 0, 0.19);
+}
+#card form{
+    padding: 1%;
+}
+#card form input{
+    border-radius: 50px;
+    border:1px solid #FF9B00;
+    font-family: 'Poppins', sans-serif;
+}
+#card form textarea{
+    border:1px solid #FF9B00;
+}
+#submit {
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 50%;
+    color: #fff;
+    background-color: #EEB11A;
+}
+#submit:hover{
+    background-color: #fff;
+    color: #EEB11A;
+    border: 1px solid #EEB11A;
+}
+#middle h2{
+    color: var(--red);
+    font-size: 32px;
+    margin: 2% auto;
+
+}
+#message{
+    border-radius: 25px;
+}
+
+#panel {
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+    padding-bottom: 80px;
+    height:400px;
+    border: 1px solid #808080;
+}
+
+#icon {
+    position: absolute;
+    border-radius: 50%;
+    padding: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.panel span {
+    position: absolute;
+    font-weight: 500;
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.inquiry-link {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-weight: 800;
+}
+#location-section{
+    margin: 10% auto;
+    height: fit-content;
+}
+.height_class{
+    height: 80vh;
+    width: auto;
+}
+.height_class iframe{
+    height: 100%;
+    width: 700px;
+}
+#ins{
+    border: 1px solid #808080;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ins > div{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+#icon2{
+    border-radius: 50% !important;
+    padding: 45px;
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 5%;
+}
+#rect{
+    margin: auto;
+}
+#lasth2 {
+    text-align: right;
+}
+
+@media (min-width:768px) and (max-width: 999px) {
+    .height_class iframe{
+        width: 50vw;
+    }
+    .height_class{
+        height: 60vh;
+    }
+    #icon2{
+        padding: 20px;
+    }
+    .no-display {
+        width: 40vw;
+    }
+}
+
+@media (min-width:320px) and (max-width:360px) {
+    #icon2{
+        padding: 30px;
+        width: 35%;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #paragraph {
+        font-size: 20px;
+        font-weight: 200;
+        text-align: center;
+        width: 100%;
+    }
+    .paragraph2{
+        font-size: 20px;
+    }
+    #con{
+        font-size: 24px;
+    }
+    .no-display {
+        display: none;
+    }
+    #card {
+        width: 100%;
+        display: block;
+    }
+    .form_input{
+        margin-top: 3%  a;
+    }
+    .panel {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    #btn {
+        display: none;
+    }
+    #lastcard {
+        margin-left: 20px;
+    }
+    .height_class{
+        height: 50vh;
+    }
+    .height_class iframe{
+        width: 100% !important;
+        margin: 5% auto;
+    }
+    #icon2{
+        padding: 20px;
+    }
+    .contact-below{
+        margin-top: 25%;
+    }
+    
+}
+
+@media (max-width:900px) {
+    .contact-inner2{
+        width: 100%;
+    }
+    .contact-inner1{
+        display: none;
+    }
+}
+
+/* FAQ SECTION */
+#faq-section{
+    background: #808080;
+}
+#index-faq-inner1{
+    width: 100%;
+}
+#index-faq-inner1 h3{
+    color: #FF9B00;
+    font-weight: bold;
+}
+#index-faq-inner1 p{
+    color: #fff;
+}
+#index-faq-inner2{
+    width: 80%;
+    margin-top: 8%;
+    padding: 3%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.index-accordion{
+    font-size: 20px;
+    width: 80%;
+    padding: 4%;
+}
+.index-accordion{
+    color: #FF9B00;
+    font-weight: 600;
+    /* font-size: 1.5em; */
+}
+.accordion-item{
+    border: 1px solid #FF9B00;
+    border-radius: 50px;
+}
+
+@media (max-width:768px) {
+    /* FAQ SECTION */
+    .big-accordion span{
+        font-size: 1em;
+        padding: 2%;
+    }
+    #index-faq-inner2{
+        margin: 10% auto;
+        padding: 3% 10%;
+        margin-top: 10%;
+        width: 100%;
+    }
+}

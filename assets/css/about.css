@@ -1,0 +1,39 @@
+#about-hero{
+    background: linear-gradient(to right, #fff 35%, #fff 10%, #808080 0%, #808080 100%);
+    height: fit-content;
+}
+.abt-hero-txt{
+    width: 50%;
+    color: #000;
+}
+.abt-hero-img{
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left: 50%;
+}
+.abt-hero-img img{
+    height: 70vh;
+}
+.card{
+    width: 30%;
+    margin: 20px auto;
+}
+hr{
+    width: 90%;
+}
+@media (max-width:768px) {
+    .abt-hero-txt{
+        width: 100%;
+    }
+    #about-hero{
+        background: #fff;
+        margin-bottom: 0%;
+    }
+    .card{
+        width: 90%;
+    }
+    hr{
+        width: 80%;
+    }
+}
