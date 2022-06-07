@@ -19,8 +19,14 @@
     width: 30%;
     margin: 20px auto;
 }
+.card-body{
+    width: 100%;
+}
 hr{
     width: 90%;
+}
+#aptech-abt div{
+    width: 48%;
 }
 @media (max-width:768px) {
     .abt-hero-txt{

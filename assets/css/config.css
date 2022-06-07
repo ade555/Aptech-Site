@@ -15,6 +15,9 @@ section{
 .yellow-txt{
     color: var(--main-color);
 }
+.bg-grey{
+    background-color: #808080;
+}
 @media (max-width:768px) {
     .no-display{
        display: none; 
