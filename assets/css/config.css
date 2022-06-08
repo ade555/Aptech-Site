@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 section{
     height: fit-content;
     /* width: 90vw; */
@@ -14,6 +17,9 @@ section{
 }
 .yellow-txt{
     color: var(--main-color);
+}
+.yellow-bg{
+    background-color: var(--main-color);
 }
 .bg-grey{
     background-color: #808080;
