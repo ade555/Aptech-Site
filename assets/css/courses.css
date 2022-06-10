@@ -1,0 +1,38 @@
+.courses-box-inner{
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    block-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.6);
+}
+.skill-builder{
+    background: url('/assets/images/aptech4.jpg');
+}
+.adse{
+    background: url('/assets/images/aptech7.jpg');
+}
+.acns{
+    background: url('/assets/images/aptech2.jpg');
+}
+.courses-box-inner button{
+    background-color: var(--main-color);
+    outline: none;
+    border: 0;
+    color: white;
+}
+.modal-body div{
+    width: 100%;
+}
+.learn-more{
+    float: right;
+}
+@media (max-width:768px) {
+    .courses-box-inner{
+        width: 100%;
+        margin-top: 25px;
+    }
+}
