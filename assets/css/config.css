@@ -156,6 +156,7 @@ form #contact {
 .footer-top{
     background-color: #333;
     height: 300px;
+    padding: 50px 20px 20px 0px;
 }
 .footer-top a{
     text-decoration: none;
@@ -172,7 +173,7 @@ form #contact {
     color: #fff;
     font-size: 1em;
     font-weight: bold;
-    margin-bottom: ;
+    margin-bottom: 10px;
 }
 .footer-bottom-text{
     height: 80px;
